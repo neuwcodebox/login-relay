@@ -1,0 +1,16 @@
+node_modules/
+dist/
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+clients.json
+credentials*
+runtime/

@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "login-relay"
+version = "0.1.0"
+description = "Outbound Python client for encrypted login relay deliveries"
+requires-python = ">=3.10"
+dependencies = ["jwcrypto==1.6.1", "cryptography==50.0.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["login_relay*"]

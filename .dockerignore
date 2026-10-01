@@ -1,0 +1,11 @@
+.git
+node_modules
+dist
+python
+test
+.github
+.env*
+*.pem
+*.key
+clients.json
+runtime
